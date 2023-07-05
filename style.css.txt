@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Component */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__nav {
+  margin-top: 10px;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Card Component */
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+  margin-top: 0;
+}
+
+.card__text {
+  margin-bottom: 10px;
+}
+
+.card__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
